@@ -1,0 +1,34 @@
+// // Returns a value
+// function getStatus(code) {
+//     if (code >= 200 && code < 300) return "success";
+//     if (code >= 400 && code < 500) return "client error";
+//     if (code >= 500) return "server error";
+// }
+
+// getStatus(200);//success
+// getStatus(404);//Client error
+// getStatus(500);//server error
+
+
+
+// function logTest(name) {
+//     console.log(`Running: ${name}`);//Running: Login
+//     // no return statement
+// }
+// let result = logTest("Login");
+// console.log(result);//undefined
+
+
+// greet("Alice");
+
+// function greet(name) {
+//     return `Hello, ${name}!`;//Hello, Alice!
+// }
+
+// ❌ Expression — NOT hoisted
+
+sayHi("Bob");
+
+const sayHi = function (name) {
+    return `Hi, ${name}!`;//
+};
